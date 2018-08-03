@@ -1,0 +1,30 @@
+{
+  "name": "sprint-challenge-node-express",
+  "version": "1.0.0",
+  "description": "Sprint Challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LambdaSchool/Sprint-Challenge-Node-Express"
+  },
+  "keywords": [],
+  "author": "Lambda School",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LambdaSchool/Sprint-Challenge-Node-Express/issues"
+  },
+  "homepage": "https://github.com/LambdaSchool/Sprint-Challenge-Node-Express/blob/master/README.md",
+  "devDependencies": {
+    "nodemon": "^1.18.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "helmet": "^3.13.0",
+    "knex": "^0.15.0",
+    "sqlite3": "^4.0.1"
+  }
+}
